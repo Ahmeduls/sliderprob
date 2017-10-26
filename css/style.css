@@ -1,0 +1,291 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: Your template name 
+    Template URI: http://bootexperts.com
+    Description: This is html5 template
+    Author: BootExperts
+    Author URI: http://bootexperts.com
+    Version: 1.0
+
+-----------------------------------------------------------------------------------
+    
+    CSS INDEX
+    ===================
+	
+    1. Theme Default CSS (body, link color, section etc)
+
+-----------------------------------------------------------------------------------*/
+
+
+/*----------------------------------------*/
+
+
+/*  1.  Theme default CSS
+/*----------------------------------------*/
+
+
+/*Google Font*/
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900|Raleway:300,300i,400,400i,700,700i,800,800i');
+html,
+body {
+    height: 100%;
+}
+
+.floatleft {
+    float: left
+}
+
+.floatright {
+    float: right
+}
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 15px
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px
+}
+
+a:focus {
+    outline: 0px solid
+}
+
+img {
+    max-width: 100%;
+    height: auto
+}
+
+.fix {
+    overflow: hidden
+}
+
+p {
+    margin: 0 0 15px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 10px;
+    font-family: 'Raleway', sans-serif;
+    color: #353535;
+}
+
+a {
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #a0e349;
+    text-decoration: none;
+}
+
+a:active,
+a:hover {
+    outline: 0 none;
+}
+
+ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0
+}
+
+.clear {
+    clear: both
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+.ptb-100 {
+    padding: 100px 0;
+}
+
+.ptb-75 {
+    padding: 75px 0
+}
+
+.pt-100 {
+    padding-top: 100px;
+}
+
+.mb-100 {
+    margin-bottom: 100px;
+}
+
+.mb-60 {
+    margin-bottom: 60px;
+}
+
+.bg-color {
+    background-color: #f1f1f1;
+}
+
+.ptb-80 {
+    padding: 80px 0px;
+}
+
+
+/*Header Area*/
+
+.header-area {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+}
+
+.menu .navbar-default {
+    background: none;
+    border: none;
+}
+
+.navbar-nav,
+.social-icon {
+    float: left;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 24px 19px;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #a0e349;
+}
+
+.logo {
+    padding-top: 16px;
+}
+
+.logo a {
+    color: #000;
+}
+
+.social-icon a {
+    width: 30px;
+    height: 30px;
+    background: #ddd;
+    border-radius: 50%;
+    line-height: 31px;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    margin: 0px 4px;
+    transition: 1s;
+}
+
+.social-icon {
+    margin-top: 17px;
+}
+
+.social-icon a.icon1 {
+    background: #4267B2;
+}
+
+.social-icon a.icon2 {
+    background: #D34836;
+}
+
+.social-icon a.icon3 {
+    background: blue;
+}
+
+.social-icon a:hover {
+    background: #fff;
+    transform: rotate(360deg)
+}
+
+.social-icon a.icon1:hover {
+    color: #4267B2;
+}
+
+.social-icon a.icon2:hover {
+    color: #D34836;
+}
+
+.social-icon a.icon3:hover {
+    color: blue;
+}
+
+
+/*Slider Area*/
+
+.slider-active .owl-nav div {
+    width: 40px;
+    height: 40px;
+    background: #ddd;
+    top: 50%;
+    left: 18px;
+    position: absolute;
+    border-radius: 50%;
+    text-align: center;
+    transform: translateY(-50%);
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 38px;
+}
+
+.slider-active .owl-nav div.owl-next {
+    left: auto;
+    right: 18px;
+}
+
+.owl-dot {
+    width: 15px;
+    height: 15px;
+    background: #fff;
+    display: inline-block;
+    margin: 0 4px;
+    border-radius: 50%;
+}
+
+.owl-dots {
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    bottom: 50px;
+}
+
+.owl-dot.active {
+    background-color: #A0E349;
+    border-color: #A0E349;
+}
